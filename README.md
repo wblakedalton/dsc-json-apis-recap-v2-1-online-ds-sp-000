@@ -3,20 +3,29 @@
 
 ## Introduction
 
-This short lesson summarizes the topics we covered in section 11 and why they'll be important to you as a data scientist.
+This short lesson summarizes the topics we covered in Section 9 and why they'll be important to you as a data scientist.
 
-## Objectives
-You will be able to:
-* Understand and explain what was covered in this section
-* Understand and explain why this section will help you become a data scientist
+In this section, you learned about the JSON file format, how to parse and navigate JSON files using the `json` Python module. You also learned about the HTTP request/response cycle and using APIs. APIs are critical to software development, and they can be powerful tools for gathering data for data scientists.
+
+Before JSON files were widely adopted, XML files were used. You'll have a chance to learn about XML files in the Appendix for this section.
+
+ 
 
 ## Key Takeaways
 
-In this section, we really dug into two key formats for storing and transferring data between applications - JSON and XML. Key takeaways include:
-* XML (eXtensible Markup Language) is a general-purpose markup language for describing any kind of structured data
-* JSON (JavaScript Object Notation) is another common format for storing and accessing data. It requires slightly less typing than XML to represent the same information so it has become increasingly popular over the last 10-15 years
-* The XML standard library in Python allows for interacting with XML data - https://docs.python.org/3.6/library/xml.html
+In this section, we dug into a key format for storing and transferring data between applications - the JSON file format. We also covered APIs, which can provide access to a wide range of data that you might need as a data scientist.
+
+Key takeaways include:
+
+* JSON (JavaScript Object Notation) is a widely adopted format for storing and accessing data. It requires slightly less typing than XML to represent the same information so it has become increasingly popular over the last 10-15 years. 
+
 * The JSON standard library in Python is used for interacting with JSON data - https://docs.python.org/3.6/library/json.html
-* Recursive functions have a number of uses - including traversing deeply embedded XML and/or JSON data structures
-* NoSQL databases are data stores that are not relational and don't use SQL for data access. Generally, they're categorized as key-value stores (e.g. Redis), document databases (e.g. MongoDB), wide-column databases (e.g. Cassandra) or Graph databases (e.g. Neo4j) although over time some specific databases have started to resist easy categorization.
+
+* While there are many other kinds of APIs, as a data scientist, you'll typically be working with web APIs. 
+
+* The `requests` library in Python is a great starting point for making HTTP requests to APIs. 
+
+* The two most common HTTP methods you'll use when accessing APIs are GET (to retrieve information) and POST (to send information). 
+
+* Typically, you'll need to authenticate in some manner to gain access to most APIs - one common method for doing so is using OAuth. 
 
