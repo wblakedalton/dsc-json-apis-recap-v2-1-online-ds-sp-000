@@ -1,5 +1,5 @@
 
-# JSON and APIs - Section Recap
+# JSON and APIs - Recap
 
 ## Introduction
 
@@ -19,7 +19,7 @@ Key takeaways include:
 
 * JSON (JavaScript Object Notation) is a widely adopted format for storing and accessing data. It requires slightly less typing than XML to represent the same information so it has become increasingly popular over the last 10-15 years. 
 
-* The JSON standard library in Python is used for interacting with JSON data - https://docs.python.org/3.6/library/json.html
+* The JSON standard library in Python, `json`, is used for interacting with JSON data: https://docs.python.org/3.6/library/json.html
 
 * While there are many other kinds of APIs, as a data scientist, you'll typically be working with web APIs. 
 
@@ -28,4 +28,3 @@ Key takeaways include:
 * The two most common HTTP methods you'll use when accessing APIs are GET (to retrieve information) and POST (to send information). 
 
 * Typically, you'll need to authenticate in some manner to gain access to most APIs - one common method for doing so is using OAuth. 
-
